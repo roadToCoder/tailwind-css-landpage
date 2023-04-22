@@ -1,5 +1,12 @@
-// Import stylesheets
-import './style.css';
+gsap.from(".road2Coder", {
+  opacity: 0, 
+  y: 20, 
+  duration: 0.5
+});
 
-// Write Javascript code!
-const appDiv = document.getElementById('app');
+gsap.from(".parcours", {
+  opacity: 0, 
+  y: 20, 
+  duration: 0.5,
+  delay:0.5
+});
